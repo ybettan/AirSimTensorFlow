@@ -23,7 +23,7 @@ from tf_softmax_layer import inference
 TMPFILE = IMAGEDIR + '/active.png'
 PARAMFILE = 'params.pkl'
 IMGSIZE = 1032
-INITIAL_THROTTLE= 0.65
+INITIAL_THROTTLE= 0.1
 BRAKING_DURATION = 15
 
 # connect to the AirSim simulator 
